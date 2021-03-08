@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SwipeableButton'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SwipeableButton.'
+  s.summary          = 'Short summary '
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,17 +25,17 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shamshir-ali' => 'alishaamrao@gmail.com' }
-  s.source           = { :git => 'https://github.com/shamshir-ali/SwipeableButton.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/shamshir-ali/SwipeableButton.git', :branch => 'master', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'SwipeableButton/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SwipeableButton' => ['SwipeableButton/Assets/*.png']
-  # }
-
+   s.resource_bundles = {
+     'Resources' => ['SwipeableButton/Assets/**/*.png']
+   }
+   s.swift_version = '5.0'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

@@ -1,0 +1,6 @@
+framework module SwipeableButton {
+  umbrella header "SwipeableButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

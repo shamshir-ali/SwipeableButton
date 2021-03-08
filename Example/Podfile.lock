@@ -1,0 +1,16 @@
+PODS:
+  - SwipeableButton (0.1.0)
+
+DEPENDENCIES:
+  - SwipeableButton (from `../`)
+
+EXTERNAL SOURCES:
+  SwipeableButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwipeableButton: 22ac54fc7571d4d299c5c4d30ec7c7f1f3aedf76
+
+PODFILE CHECKSUM: f24f0311d7e02aecce4491c544905fb75483b6fc
+
+COCOAPODS: 1.9.3
