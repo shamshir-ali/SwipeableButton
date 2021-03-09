@@ -23,7 +23,6 @@
 		B97F9A0F57514EC74BF5501C2D2F7D01 /* outline_unlock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3956112E01BEE60C6C5006DAE7E9E408 /* outline_unlock@3x.png */; };
 		C26C473E88EDF3785FA18073019B15E5 /* outline_lock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D407E7839DDB774F9C076C8499D5B219 /* outline_lock@3x.png */; };
 		EA5848AB665D4D94B3900718ECF73D51 /* SwipeableButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC9F0FD59273106A5504DC3E1E98FE1 /* SwipeableButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFB6FDB547E413083AF693D6F494CF66 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6B012B0CBB263D7DD472F81B305836 /* ReplaceMe.swift */; };
 		F4C928FAF72EF37828C339EF7FF6F22F /* outline_unlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 70A219013DAEDB65BE35C1F7B73BA290 /* outline_unlock.png */; };
 /* End PBXBuildFile section */
 
@@ -57,8 +56,8 @@
 		23628BB9F72F9D118790769EF878F551 /* SwipeableButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeableButton-dummy.m"; sourceTree = "<group>"; };
 		24560710F30D9CE9614CF40A00B6484D /* ResourceBundle-Resources-SwipeableButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Resources-SwipeableButton-Info.plist"; sourceTree = "<group>"; };
 		26752AA45779999474CB32223F57D356 /* Pods-SwipeableButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwipeableButton_Tests.modulemap"; sourceTree = "<group>"; };
-		2891C4F9977F8146FFC18F4B829B9666 /* Resources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Resources.bundle; path = "SwipeableButton-Resources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		29AC46F4D3CB83858EEBE03548BA9257 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2891C4F9977F8146FFC18F4B829B9666 /* Resources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Resources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AC46F4D3CB83858EEBE03548BA9257 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2D10A585A74613DA786A61137989DBC4 /* Pods-SwipeableButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwipeableButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2F4225970ED4A81F65BF4050216ABC1B /* Pods-SwipeableButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwipeableButton_Example-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -67,18 +66,17 @@
 		3B558C19E31F14932AEBDF96AE077969 /* Pods-SwipeableButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwipeableButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		43E50119EF254301F390E223D3920268 /* Pods-SwipeableButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwipeableButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4CC612CDBA78309173125C4DB3B11E73 /* SwipeableButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeableButton.debug.xcconfig; sourceTree = "<group>"; };
-		4F6B012B0CBB263D7DD472F81B305836 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwipeableButton/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		5ED73569C7D3E167890052CB9FA48AE7 /* SwipeableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeableButton.swift; path = SwipeableButton/Classes/SwipeableButton.swift; sourceTree = "<group>"; };
 		651A3B9E5E32BF9620DBFE2BC7706ECA /* Pods-SwipeableButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwipeableButton_Example-dummy.m"; sourceTree = "<group>"; };
-		6753CE1FBE0469A059F0815FB3D19862 /* Pods_SwipeableButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwipeableButton_Example.framework; path = "Pods-SwipeableButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6753CE1FBE0469A059F0815FB3D19862 /* Pods_SwipeableButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeableButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CE68F9CDA48773ABAAFE98B5365FD5D /* Pods-SwipeableButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwipeableButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		6E55BDC043CFA30B7E3B7D1DD7F6C7B0 /* Pods-SwipeableButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwipeableButton_Example-frameworks.sh"; sourceTree = "<group>"; };
 		70A219013DAEDB65BE35C1F7B73BA290 /* outline_unlock.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = outline_unlock.png; sourceTree = "<group>"; };
-		843CA17E2873B6C9EC92C7AB4A0220BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		843CA17E2873B6C9EC92C7AB4A0220BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A25ACCE0C48B8F3AF20354C5713EDFEF /* Pods-SwipeableButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwipeableButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ABDF30EDC9669998F9F48FD627159D45 /* SwipeableButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeableButton.release.xcconfig; sourceTree = "<group>"; };
-		AC2C32771DB7F1AC49E0D81AFE101182 /* Pods_SwipeableButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwipeableButton_Tests.framework; path = "Pods-SwipeableButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2C32771DB7F1AC49E0D81AFE101182 /* Pods_SwipeableButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeableButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B21C9C2E9B1E43AD403F8E0ECF29A5B4 /* outline_lock@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "outline_lock@2x.png"; sourceTree = "<group>"; };
 		BA3F5045CF672127402F2BA3C055759A /* SwipeableButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwipeableButton-Info.plist"; sourceTree = "<group>"; };
 		BD7859DEA887DE67EDAD21BE66BAD054 /* outline_lock.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = outline_lock.png; sourceTree = "<group>"; };
@@ -89,8 +87,8 @@
 		DB058839F4802DBC863439F4ECED4337 /* Pods-SwipeableButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwipeableButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DF6029E357BAEC930C8F8C925A7FA760 /* SwipeableButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwipeableButton.modulemap; sourceTree = "<group>"; };
 		DFB57ED8E52AFD6F7E0D1A4345690F64 /* Pods-SwipeableButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwipeableButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E84C263B486D22B8DCBF31EE84D1E172 /* SwipeableButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwipeableButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E88D6B1CB6B0D388A9201F4EDF07F460 /* SwipeableButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwipeableButton.framework; path = SwipeableButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84C263B486D22B8DCBF31EE84D1E172 /* SwipeableButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwipeableButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E88D6B1CB6B0D388A9201F4EDF07F460 /* SwipeableButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwipeableButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F611A96FE1D145C0569CBEA65939C514 /* SwipeableButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeableButton-prefix.pch"; sourceTree = "<group>"; };
 		F8A01960ED2DF6452D9397D0C0B33EEB /* Pods-SwipeableButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwipeableButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FAC9F0FD59273106A5504DC3E1E98FE1 /* SwipeableButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeableButton-umbrella.h"; sourceTree = "<group>"; };
@@ -194,7 +192,6 @@
 		9FA61F23E7701A1BC381457831D73342 /* SwipeableButton */ = {
 			isa = PBXGroup;
 			children = (
-				4F6B012B0CBB263D7DD472F81B305836 /* ReplaceMe.swift */,
 				5ED73569C7D3E167890052CB9FA48AE7 /* SwipeableButton.swift */,
 				8205E947E0B73F7D26EF3FD83218F24F /* Pod */,
 				92762262473F5E69370C9A4B8B1293F6 /* Resources */,
@@ -466,7 +463,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFB6FDB547E413083AF693D6F494CF66 /* ReplaceMe.swift in Sources */,
 				814900AC2F6055E72DA26951828E83F4 /* SwipeableButton-dummy.m in Sources */,
 				6C735D751E9423C038B877625FBA12C5 /* SwipeableButton.swift in Sources */,
 			);
@@ -723,8 +719,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

@@ -9,30 +9,30 @@ import UIKit
 protocol SwipeableButtonDelegate: class {
     func swipableButtonSelected(_ isSelected: Bool)
 }
-class SwipeableButton: UIView {
+public class SwipeableButton: UIView {
 
-    var imageContainer: UIView = UIView()
-    var lblActive: UILabel = UILabel()
-    var lblInactive: UILabel = UILabel()
-    var imageview: UIImageView = UIImageView()
-    var mainView: UIView = UIView()
+    public var imageContainer: UIView = UIView()
+    public var lblActive: UILabel = UILabel()
+    public var lblInactive: UILabel = UILabel()
+    public var imageview: UIImageView = UIImageView()
+    public var mainView: UIView = UIView()
     weak var swipeableDelegate: SwipeableButtonDelegate?
     private let mainTag: Int = 999
     //    MARK: - Head colors
-    @IBInspectable var headActiveColor: UIColor = UIColor.gray
-    @IBInspectable var headInctiveColor: UIColor = UIColor.orange
+    @IBInspectable public var headActiveColor: UIColor = UIColor.gray
+    @IBInspectable public var headInctiveColor: UIColor = UIColor.orange
     //    MARK: - Track colors
-    @IBInspectable var trackActiveColor: UIColor = UIColor.orange
-    @IBInspectable var trackInctiveColor: UIColor = UIColor.gray
+    @IBInspectable public var trackActiveColor: UIColor = UIColor.orange
+    @IBInspectable public var trackInctiveColor: UIColor = UIColor.gray
     //    MARK: - Label colors
-    @IBInspectable var labelActiveColor: UIColor = UIColor.white
-    @IBInspectable var labelInctiveColor: UIColor = UIColor.white
+    @IBInspectable public var labelActiveColor: UIColor = UIColor.white
+    @IBInspectable public var labelInctiveColor: UIColor = UIColor.white
     //    MARK: - Header Image
-    @IBInspectable var inactiveImage: UIImage = #imageLiteral(resourceName: "outline_lock")
-    @IBInspectable var activeImage: UIImage = #imageLiteral(resourceName: "outline_unlock")
+    @IBInspectable public var inactiveImage: UIImage = #imageLiteral(resourceName: "outline_lock")
+    @IBInspectable public var activeImage: UIImage = #imageLiteral(resourceName: "outline_unlock")
     //    MARK: - Text
-    @IBInspectable var activeText: String = ""
-    @IBInspectable var inactiveText: String = ""
+    @IBInspectable public var activeText: String = ""
+    @IBInspectable public var inactiveText: String = ""
     @objc func pangesture(_ sender: UIPanGestureRecognizer) {
         switch sender.state {
             case .began:
@@ -120,7 +120,7 @@ class SwipeableButton: UIView {
     }
     func setUI() {
     }
-    override func layoutSubviews() {
+    public override func layoutSubviews() {
         setupView()
     }
     func setupView() {
@@ -205,7 +205,7 @@ class SwipeableButton: UIView {
         imageContainer.addGestureRecognizer(UIPanGestureRecognizer(target: self, action: #selector(pangesture(_:))))
     }
     
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
         super.awakeFromNib()
     }
 
