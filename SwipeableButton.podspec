@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'SwipeableButton/Classes/**/*'
   
-   s.resource_bundles = {
-     'Resources' => ['SwipeableButton/Assets/**/*.png']
-   }
+#   s.resource_bundles = {
+#     'Resources' => ['SwipeableButton/Assets/**/*.png']
+#   }
    s.swift_version = '5.0'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
