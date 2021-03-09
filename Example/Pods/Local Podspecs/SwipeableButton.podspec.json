@@ -1,7 +1,10 @@
 {
   "name": "SwipeableButton",
   "version": "0.1.0",
-  "summary": "A short description of SwipeableButton.",
+  "summary": "Short summary",
+  "platforms": {
+    "ios": "9.0"
+  },
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/shamshir-ali/SwipeableButton",
   "license": {
@@ -13,15 +16,15 @@
   },
   "source": {
     "git": "https://github.com/shamshir-ali/SwipeableButton.git",
+    "branch": "master",
     "tag": "0.1.0"
-  },
-  "platforms": {
-    "ios": "9.0"
   },
   "source_files": "SwipeableButton/Classes/**/*",
   "resource_bundles": {
     "Resources": [
       "SwipeableButton/Assets/**/*.png"
     ]
-  }
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }
